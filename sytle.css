@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #150322;
+    color: #2E8B57;
+}
+
+header {
+    padding: 30px 0;
+    color: #2E8B57;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-left: 80px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 100px;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+header nav li a {
+    color: #2E8B57;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav li a:hover {
+    color: #663399;
+}
+
+.conteiner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linha {
+    border: solid 0.1px #663399;
+}
+
+h2 {
+    color: #663399;
+    font-size: 20px;
+}
+
+.perfil {
+    height: 280px;
+    border-radius: 50%;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20%;
+}
+
+.perfilquemsou {
+    margin-top: 80px;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.perfil {
+    margin-top: 80px;
+    margin-right: 80px;
+}
+
+.perfilquemsou h1,
+p {
+    margin: 12px 0;
+}
+
+.perfilquemsou h1 {
+    font-size: 40px;
+}
+
+.perfilquemsou button a {
+    text-decoration: none;
+    color: #2E8B57;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.perfilquemsou button {
+    background-color: #38015f;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.perfilquemsou button:hover {
+    background-color: #4b0b8b;
+}
+
+.menu {
+    margin-top: 100px;
+}
+
+.menu div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 18px;
+    justify-content: center;
+}
+
+#habilidades,
+#certificados,
+#projetos {
+    margin-top: 100px;
+    font-size: 42px;
+    text-align: center;
+}
+
+.cards {
+    margin-top: -50px;
+    border: solid 1px #050008;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: #38015f;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu div .cards:hover {
+    background-color: #4b0b8b;
+}
+
+.menu div .cards h2 {
+    color: #2E8B57;
+}
+
+.sub,
+form,
+.sub2 {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #2E8B57;
+}
+
+#entreemcontato .conteiner {
+    display: block;
+}
+
+form {
+    margin-top: 5px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #38015f;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #2E8B57;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4b0b8b;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #4b0b8b;
+}
+
+footer .rodape {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25%;
+    margin-bottom: 10px;
+}
+
+.midias img {
+    height: 25px;
+    cursor: pointer;
+}
