@@ -219,3 +219,67 @@ footer .rodape {
     height: 25px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+    hr {
+        width: 100%;
+        display: block;
+    }
+    .primeiroh1 {
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .perfil {
+        display: none;
+    }
+    .subtitulo {
+        font-size: 35px;
+    }
+    .h1nome {
+        font-size: 25px;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        margin: 5px 25px 25px 5px;
+    }
+    .botoesPrincipal {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .blinkedin,
+    .bentraContato {
+        margin-bottom: 10px;
+        width: 150px;
+        margin: 0 auto 10px;
+    }
+    .cards {
+        padding: 15px 20px;
+    }
+    #entreemcontato form {
+        display: block;
+        margin: 0 auto 15px 35px;
+        width: 320px;
+    }
+    .sub {
+        display: none;
+    }
+    .sub2 {
+        margin-bottom: 10px;
+        margin: 30px auto 5px;
+        width: 320px;
+    }
+    footer .rodape {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .h3rodape {
+        font-size: 12px;
+    }
+}
